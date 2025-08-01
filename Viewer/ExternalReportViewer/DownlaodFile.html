@@ -9,7 +9,6 @@
     <script type="text/javascript" src="/_Layouts/Riyadh.EServices/Scripts/FancBox.js"></script>
 
 
-    <!-- تنسيقات -->
     <style>
         img {
             width: 100%;
@@ -27,7 +26,7 @@
 
            
                 const link = document.createElement('a');
-                link.href = `/pdfs/${fileName}`;
+                link.href = `pdfs/${fileName}`;
                 link.download = fileName;
                 document.body.appendChild(link);
                 link.click();
